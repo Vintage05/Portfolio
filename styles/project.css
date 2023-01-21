@@ -17,7 +17,7 @@ ul {
 }
 nav {
 	margin-left: 35%;
-	padding-top: 40px;	opacity: 40%;
+	padding-top: 40px;	
 }
 @media (max-width: 650px) {
 	ul {
