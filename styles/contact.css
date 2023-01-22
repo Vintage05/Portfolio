@@ -134,11 +134,11 @@ ul {
 .im {
 	width: 30px;
 	height: 30px;
-	background-color: white;
 	border-radius: 50%;
 }
 .im {
 	display: none;
+	background-color:rgb(18, 216, 0);
 }
 @media (max-width: 650px) {
 	.im {
