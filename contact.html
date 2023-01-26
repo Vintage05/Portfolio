@@ -7,18 +7,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/contact.css">
     <link rel="stylesheet" href="./icons/all.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </style>
 </head>
 <body>
-    <img src="./icons/bars.svg" alt=""class="im" />
-    <nav>
-        <ul style="border-bottom: 1px solid white;border-top: 1px solid white;margin-top:0px;">
-            <li><a href="./index.html" >Home</a></li>
-            <li><a href="./about.html" >About</a></li>
-            <li><a href="./portfolio.html"  >Portfolio</a></li>
-            <li><a href="./contact.html" >Contact</a></li>
-        </ul>
-        </nav>
+    <div class="topnav" id="myTopnav">
+        <a href="./index.html" class="active"style="margin-right: 100px;">Home</a>
+        <a href="./about.html"style="margin-right: 100px;"class="x" >About</a>
+        <a href="./portfolio.html"style="margin-right: 100px;"class="y">Portfolio</a>
+        <a href="./contact.html"style="margin-right: 100px;"class="z">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
   <div class="box">
     <form>
         <img src="./icons/address-book.svg" alt="No image" class="contact" style="margin-top: 50px;">
@@ -63,6 +64,6 @@
 <a href="https://www.facebook.org/" class="r"><i><img src="./icons/facebook.svg" alt="" style="width: 20px;height:20px" ></i></a>
 <a href="https://www.instagram.org/" class="t"><i><img src="./icons/instagram.svg" alt="" style="width: 20px;height:20px" ></i></a>            </div>
 </div>
-
+<script src="./js/project.js"></script>
 </body>
 </html>

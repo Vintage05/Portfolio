@@ -6,22 +6,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link rel="stylesheet" href="./styles/about.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
-		<img src="./icons/bars.svg" alt="" class="im"/>
-		<nav>
-			<ul
-				style="
-					border-bottom: 1px solid white;
-					border-top: 1px solid white;
-					margin-top: 0px;
-				">
-				<li><a href="./index.html">Home</a></li>
-				<li><a href="./about.html">About</a></li>
-				<li><a href="./portfolio.html">Portfolio</a></li>
-				<li><a href="./contact.html">Contact</a></li>
-			</ul>
-		</nav>
+		<div class="topnav" id="myTopnav">
+			<a href="./index.html" class="active"style="margin-right: 100px;">Home</a>
+			<a href="./about.html"style="margin-right: 100px;"class="x" >About</a>
+			<a href="./portfolio.html"style="margin-right: 100px;"class="y">Portfolio</a>
+			<a href="./contact.html"style="margin-right: 100px;"class="z">Contact</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			  <i class="fa fa-bars"></i>
+			</a>
+		  </div>
+		
 		<img src="./images/ovie.jpg" alt="" style="width: 250px; height: 300px" class="like" />
 		<p class="about">
 			<span
@@ -33,12 +30,12 @@
 					color: rgb(18, 216, 0);
 				"
 				>M</span
-			>y name is samuel adeoye <br />
-			I am a talented Front-end web developer on this lovely earth.<br />My
-			areas of expertise include Typing, Web design, general graphic
-			designing.
+			>y name is Samuel Adeoye <br />
+			I am a talented front-end web developer on this lovely earth.<br />My
+			areas of expertise include <span class="r" >Typing, web design, general graphic
+				designing.</span>
 		</p>
 		<span style="margin-left: 550px"
-			>
+			><script src="./js/project.js"></script>
 	</body>
 </html>
